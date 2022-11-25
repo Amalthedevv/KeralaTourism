@@ -122,6 +122,6 @@ function navigate()
      if (passwordvalidates() && validate() &&  numbervalidates() && confirmpasswords() ===  true)
      {
 
-    location.replace ("./index.html")
+    location.replace ("./login.html")
 }
   }
