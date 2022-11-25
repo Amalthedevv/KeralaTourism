@@ -1,0 +1,20 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    
+} */
+body {
+    background-image: url("./Images/KWA.jpg");
+    background-size: cover;
+    /* overflow: hidden;  */
+
+   
+}
+
+.mask{
+    margin: 50px;
+    
+}
+
+
+

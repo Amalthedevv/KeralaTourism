@@ -1,0 +1,180 @@
+#main{
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+  #header {
+    background: #b8d8be;
+    padding: 15px 0;
+ 
+  }
+  
+  #header .logo {
+    font-size: 32px;
+    margin: 0;
+    /* margin-left: -530px; */
+    padding: 0;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+  }
+#header .logomar{
+    margin-left: -530px;
+}
+  .logo a {
+    color: #022e15;
+    
+    background-color: transparent;
+}
+
+.logo a:hover{
+    color: #34b7a7;
+    text-decoration: none;
+
+}
+ 
+  .navbar a:hover{
+    padding: 0;
+    color: #34b7a7;
+    text-decoration: none;
+  }
+  
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  
+  .navbar li {
+    position: relative;
+    padding: 10px 0 10px 28px;
+  }
+  
+  .navbar a,
+  .navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #022e15;
+    white-space: nowrap;
+    transition: 0.3s;
+    position: relative;
+    
+  }
+  
+  
+  
+  .navbar>ul>li>a:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #34b7a7;
+    visibility: hidden;
+    width: 0px;
+    transition: all 0.2s ease-in-out 0s;
+  }
+  
+  .navbar a:hover:before,
+  .navbar li:hover>a:before,
+  .navbar .active:before {
+    visibility: visible;
+    width: 25px;
+   
+    
+  }
+
+  .about{
+    text-align: center;
+}
+.about h1{
+    margin-top:120px ;
+    color: rgb(72, 137, 110);
+}
+.about h2{
+    margin-top:20px ;
+    color: green;
+    text-align: left;
+}
+
+.about h3{
+    margin-top:20px ;
+    color: green;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.about p{
+    text-align: justify;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 1.8;
+    margin-top: 30px;
+   
+}
+.district-grid{
+    width: 100%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.button-Grid{
+    
+    float: left;
+}
+.district-grid .row{
+    margin-top: 30px;
+
+}
+
+.district-grid .btn-primary{
+    height: 50px;
+    font-weight: bold;
+    width: 200px;
+}
+
+
+
+
+.distric-car .carousel-control-prev,
+.carousel-control-next{
+
+    margin-top: 75;
+}
+.footerContainer{
+    background-color: #b8d8be;
+    height: 270px;
+    padding-top: 25px;
+    color: #022e15;
+    text-align: center;
+
+}
+
+
+.dis{
+    background-image: linear-gradient(to right, #E8F1FF, #DEFFE4);
+    overflow-x: hidden;
+    
+}
+.img{
+    margin-top: 210px;
+    margin-left: 20px;
+    width: 400px;
+}
+
+.login{
+    background-image: url(http://www.travelsiteindia.com/blog/wp-content/uploads/2017/09/kerala-backwater.jpg);
+    background-size: cover;
+} 
+
+
+
+
+  
